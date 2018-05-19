@@ -1,0 +1,217 @@
+
+/*-----------------INDEX---------------------*/
+  /*** 1.0 BOX SIZING ***/
+  /*** 2.0 TEXT & FONTS ***/
+  /*** 3.0 PAGE & TOP CONSTRUCTION ***/
+  /*** 4.0 NAVIGATION ***/
+  /*** 5.0 MAIN AREA ***/
+  /*** 6.0 PORTFOLIO ***/
+  /*** 7.0 CONTACT FORM ***/
+  /*** 9.0 FOOTER ***/
+/*------------------------------------------*/
+
+/*** 1.0 BOX SIZING ***/
+* {
+	box-sizing: border-box;
+  }
+  /* this keeps border and padding inside the box measurement */
+  
+  /*** 2.0 TEXT & FONTS ***/
+  h1,
+  h2,
+  h3,
+  p {
+	margin-bottom: 20px;
+  }
+  p:last-child {
+	margin-bottom: 0;
+  }
+  h1,
+  h2,
+  h3 {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-weight: 700;
+	color: #4aaaa5;
+  }
+  h1 {
+	padding-bottom: 20px;
+	font-size: 30px;
+	line-height: 49px;
+	border-bottom: 3px solid #ddd;
+  }
+  h2,
+  h3 {
+	font-size: 22px;
+  }
+  
+  /*** 3.0 PAGE & TOP CONSTRUCTION ***/
+  body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 34px;
+	color: #777;
+	background: url("../images/concrete_seamless.png");
+  }
+  .container {
+	width: 100%;
+	clear: both;
+  }
+  #logo {
+	width: 250px;
+	height: 80px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 65px;
+	color: #fff;
+	text-decoration: none;
+	background: #4aaaa5;
+	margin-left: 200px;
+  }
+  
+  /*** 4.0 NAVIGATION ***/
+  nav {
+   border-bottom: 2px solid #dddddd;
+  }
+  .navbar-nav{
+	margin-top: 18px;
+  }
+  ul {
+	margin-left: 130px;
+  }
+  nav a {
+	display: inline-block;
+	padding-left: 15px;
+	margin-left: 15px;
+	line-height: 18px;
+	color: #999;
+	text-decoration: none;
+	border-left: 1px solid #efefef;
+  }
+  nav a:first-child {
+	border-left: 0 none;
+  }
+  
+  /*** 5.0 MAIN AREA ***/
+  #main-container {
+	padding-top: 20px;
+  }
+  .main-section {
+	float: left;
+	width: 100%;
+	padding: 30px;
+	margin: 0 0 30px;
+	background: #fff;
+	border: 1px solid #ddd;
+  }
+  .auth-image {
+	float: left;
+	width: 200px;
+	height: auto;
+	margin-top: 10px;
+	margin-right: 25px;
+  }
+  /* this class also used on images for the portfolio page */
+  
+  /*** 6.0 PORTFOLIO ***/
+  .work {
+	width: 100%;
+	position: relative;
+	margin: 20px 0 25px;
+  }
+  .work:nth-child(even) {
+	margin-right: 40px;
+  }
+  .work img {
+	width: 100%;
+	border: 0 none;
+	opacity: 0.8;
+  }
+  .work h3 {
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 0;
+	font-weight: 300;
+	line-height: 30px;
+	color: #fff;
+	text-align: center;
+	background: #4aaaa5;
+	border-bottom: 0;
+  }
+  
+  /* 7.0 CONTACT FORM */
+  #contact-form ul {
+	margin-bottom: 20px;
+  }
+  #contact-form li {
+	margin-bottom: 10px;
+  }
+  label,
+  input[type=text],
+  input[type=email],
+  textarea {
+	display: block;
+	width: 100%;
+  }
+  input[type=text],
+  input[type=email],
+  textarea {
+	height: 35px;
+	padding: 0 10px;
+	font-size: 14px;
+	border: 1px solid #ddd;
+  }
+  textarea {
+	height: 200px;
+  }
+  input[type=submit] {
+	padding: 10px 30px;
+	font-size: 18px;
+	color: #fff;
+	cursor: pointer;
+	background: #4aaaa5;
+	border: 0 none;
+  }
+  
+  /*** 8.0 SIDEBAR ***/
+  .sidebar {
+	float: right;
+	width: 100%;
+	padding: 30px;
+	margin-bottom: 20px;
+	background: #fff;
+	border: 1px solid #ddd;
+  }
+  h3,
+  .sidebar h2 {
+	padding-bottom: 20px;
+	margin-bottom: 15px;
+	line-height: 22px;
+	border-bottom: 2px solid #eee;
+  }
+  .social {
+	width: 62px;
+	height: 62px;
+	margin-top: 8px;
+	margin-left: 5px;
+  }
+  .social:last-child {
+	margin-right: 0;
+  }
+  
+  /*** 9.0 FOOTER ***/
+  footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	padding: 30px 0;
+	clear: both;
+	font-size: 12px;
+	color: #fff;
+	color: #ccc;
+	text-align: center;
+	background: #666;
+	border-top: 8px solid #4aaaa5;
+  }
